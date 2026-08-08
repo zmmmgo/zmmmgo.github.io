@@ -42,10 +42,11 @@ inject:
   head:
   bottom:
     - <script src="/js/star-trail.js"></script>
+    - <script src="/js/click-sparkle.js"></script>
 
-# --- 点击特效:烟花 ---
+# --- 点击特效:烟花(已停用,换成小星星)---
 fireworks:
-  enable: true
+  enable: false
   zIndex: 9999
   mobile: false
 
