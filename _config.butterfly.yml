@@ -1,0 +1,38 @@
+# ============ Butterfly 主题美化配置(zmg 的博客)============
+# 此文件覆盖 themes/butterfly/_config.yml 里的默认值
+
+# --- 导航菜单 ---
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  关于: /about/ || fas fa-heart
+
+# --- 社交链接(显示在首页头像下方)---
+social:
+  fab fa-github: https://github.com/zmmmgo || Github || '#24292e'
+  fas fa-envelope: mailto:zmmmgo@users.noreply.github.com || Email || '#4a7dbe'
+
+# --- 网站图标(浏览器标签页的小图标)---
+favicon: /img/favicon.ico
+
+# --- 头像(文章/评论旁的圆形头像)---
+avatar:
+  img: /img/butterfly-icon.png
+  effect: true
+
+# --- 顶部横幅图(默认留空=使用主题内置渐变)---
+# 想用自己的图,把图片放进 my-blog/source/img/ 后填 /img/你的图片名.jpg
+index_img:
+default_top_img:
+
+# --- 文章卡片显示摘要 ---
+excerpt_description: true
+
+# --- 回到顶部按钮 ---
+rightside_scroll_percent: true
+
+# --- 复制文章时自动加版权声明 ---
+copy_copyright:
+  enable: true
+  limit_count: 50
