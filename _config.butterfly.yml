@@ -36,3 +36,21 @@ rightside_scroll_percent: true
 copy_copyright:
   enable: true
   limit_count: 50
+
+# --- 注入自定义代码 ---
+inject:
+  head:
+  bottom:
+    - <script src="/js/star-trail.js"></script>
+
+# --- 点击特效:烟花 ---
+fireworks:
+  enable: true
+  zIndex: 9999
+  mobile: false
+
+# --- 资源加载方式:烟花脚本改为本地加载(避免国外 CDN 访问慢/失败)---
+CDN:
+  third_party_provider: jsdelivr
+  option:
+    fireworks: /js/fireworks.min.js
